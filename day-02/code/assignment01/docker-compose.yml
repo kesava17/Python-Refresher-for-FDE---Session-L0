@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: telemetry_admin
+      POSTGRES_PASSWORD: change_me_in_prod
+      POSTGRES_DB: telemetry_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - telemetry_pgdata:/var/lib/postgresql/data
+
+volumes:
+  telemetry_pgdata:

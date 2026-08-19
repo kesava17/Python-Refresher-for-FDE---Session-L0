@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "telemetry-insight"
+version = "0.2.0"
+description = "IoT telemetry insight. Day 2: streaming, and CPU-bound work across processes."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+packages = [{ include = "telemetry_insight", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+pre-commit = ">=3.7"
+
+[tool.poetry.scripts]
+telemetry = "telemetry_insight.cli:main"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

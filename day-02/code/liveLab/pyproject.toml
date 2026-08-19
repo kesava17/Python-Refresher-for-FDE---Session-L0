@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "reviews-insight"
+version = "0.2.0"
+description = "A data-to-insight service, built step by step. Day 2: performant and scalable."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+packages = [{ include = "reviews_insight", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+pre-commit = ">=3.7"
+
+[tool.poetry.scripts]
+reviews = "reviews_insight.cli:main"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
