@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "day05-demos"
+version = "0.1.0"
+description = "Runnable one-idea demos for Day 5, to be run through Poetry."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+# These are standalone scripts, not an installable package, so there is nothing to build.
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0"
+fastapi = "^0.141.1"
+httpx = "^0.28.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+pre-commit = ">=3.7"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
