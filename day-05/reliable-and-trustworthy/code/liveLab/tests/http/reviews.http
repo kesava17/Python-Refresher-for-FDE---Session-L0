@@ -1,0 +1,57 @@
+# reviews-insight API, the REST surface (Day 5).
+#
+# How to use:
+#   1. Start the server:  poetry run reviews serve
+#   2. Open this file in an editor with a REST client (VS Code "REST Client"
+#      extension, or the JetBrains HTTP Client) and click "Send Request" above
+#      each request. Each block is separated by a line of three hashes.
+#
+# Base URL. Change the port here if you started the server with --port.
+@host = http://127.0.0.1:8000
+@contentType = application/json
+
+### Health: the liveness route returns {"status":"ok"}.
+GET {{host}}/health
+
+### Create a review: a valid body is accepted with 201 and a ReviewAccepted response.
+POST {{host}}/v1/reviews
+Content-Type: {{contentType}}
+
+{"product_id": "P1", "rating": 5}
+
+### Rejected at the edge: a rating of 11 is outside 1 to 5, so pydantic returns 422.
+POST {{host}}/v1/reviews
+Content-Type: {{contentType}}
+
+{"product_id": "P1", "rating": 11}
+
+### Rejected at the edge: an empty product_id fails the min_length rule, also 422.
+POST {{host}}/v1/reviews
+Content-Type: {{contentType}}
+
+{"product_id": "", "rating": 5}
+
+### Add a few more so the list has something to page over.
+POST {{host}}/v1/reviews
+Content-Type: {{contentType}}
+
+{"product_id": "P2", "rating": 4}
+
+###
+POST {{host}}/v1/reviews
+Content-Type: {{contentType}}
+
+{"product_id": "P3", "rating": 3}
+
+### Pagination: ask for one page (limit 2, starting at offset 0). The response
+### carries items plus total, limit, and offset, never the whole collection.
+GET {{host}}/v1/reviews?limit=2&offset=0
+
+### The next page: same limit, offset moved forward by 2.
+GET {{host}}/v1/reviews?limit=2&offset=2
+
+### Insight: the summary over everything submitted so far.
+GET {{host}}/v1/insight
+
+### The machine-readable contract. The versioned route /v1/reviews is listed in it.
+GET {{host}}/openapi.json

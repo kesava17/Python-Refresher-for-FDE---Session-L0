@@ -1,0 +1,37 @@
+# Signed webhook (Day 5): a request from a system we do not control.
+#
+# The server computes hmac_sha256(secret, raw_body) and compares it to the
+# x-signature header with hmac.compare_digest. A correct signature is accepted
+# with 201; a forged one is refused with 401, before the payload is used.
+#
+# The signature below is pinned to the EXACT body bytes on the request line.
+# The body must stay byte-for-byte identical, or the signature will not match.
+# The shared secret is "shared-webhook-secret" (in real code it comes from
+# configuration, never hard-coded).
+#
+# To regenerate the signature after changing the body, run:
+#   python -c "import hmac,hashlib; print(hmac.new(b'shared-webhook-secret', open('body.txt','rb').read(), hashlib.sha256).hexdigest())"
+# where body.txt holds the exact bytes you will send.
+#
+# Start the server first:  poetry run reviews serve
+
+@host = http://127.0.0.1:8000
+
+### Valid signature: the review is accepted with 201 and stored.
+# Body: {"product_id": "P9", "rating": 4}
+POST {{host}}/v1/webhooks/rating
+Content-Type: application/json
+x-signature: 07113928ea47145d3439119bfbe59ad3e835950969599dab65f312fb0d1753e3
+
+{"product_id": "P9", "rating": 4}
+
+### Forged signature: the same body with a wrong signature is refused with 401,
+### and nothing is stored.
+POST {{host}}/v1/webhooks/rating
+Content-Type: application/json
+x-signature: forged
+
+{"product_id": "P9", "rating": 4}
+
+### Proof: after the valid call above (and only that one), insight counts one review.
+GET {{host}}/v1/insight

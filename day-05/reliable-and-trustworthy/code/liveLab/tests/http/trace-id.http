@@ -1,0 +1,16 @@
+# Trace id (Day 5): a correlation id ties one request's logs together across services.
+#
+# The middleware reuses an incoming x-trace-id header, or mints a new one when the
+# caller does not send it, and echoes it back on every response. Look at the
+# response headers (not the body) to see it.
+#
+# Start the server first:  poetry run reviews serve
+
+@host = http://127.0.0.1:8000
+
+### No trace id sent: the server generates one and returns it in the x-trace-id header.
+GET {{host}}/health
+
+### A trace id sent by the caller is echoed back unchanged, so the request can be followed.
+GET {{host}}/health
+x-trace-id: abc123
