@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: reviews_admin
+      POSTGRES_PASSWORD: change_me_in_prod
+      POSTGRES_DB: reviews_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - reviews_pgdata:/var/lib/postgresql/data
+
+volumes:
+  reviews_pgdata:

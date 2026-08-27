@@ -1,0 +1,8 @@
+product_id,rating,text
+P100,5,Excellent build and battery life
+P100,4,Good value for the price
+P200,3,Average it does the job
+P200,2,Stopped working after a week
+P300,5,Fantastic highly recommend
+P300,11,rating out of range should be rejected
+,4,missing product id should be rejected
