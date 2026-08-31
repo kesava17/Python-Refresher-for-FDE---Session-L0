@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5c4",
+  "code": "FZFVYARM",
+  "type": "doc",
+  "title": "business-case",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "business-case.md",
+  "contentSha256": "e8bee82bdfb0e48ecd8ea7ecb9075357ab5faeb0737840554d6fac1f7163d695",
+  "assetsDir": "._business-case",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5c3",
+    "refCode": "NTJ2K8",
+    "refName": "04-qualify"
+  },
+  "importedAt": "2026-08-29T07:40:15.775Z"
+}

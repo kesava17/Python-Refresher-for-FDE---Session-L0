@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5a3",
+  "code": "SIC3PY1B",
+  "type": "doc",
+  "title": "rice-scoring",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "rice-scoring.md",
+  "contentSha256": "720359647fd7514213adb6d8278b104cce2689e7b6e7e5180e7ecf5acbaba50d",
+  "assetsDir": "._rice-scoring",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd59f",
+    "refCode": "QMZZCO",
+    "refName": "01-triage"
+  },
+  "importedAt": "2026-08-29T07:40:15.721Z"
+}

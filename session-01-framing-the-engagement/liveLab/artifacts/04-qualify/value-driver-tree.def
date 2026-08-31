@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5b2",
+  "code": "OOCD3DN6",
+  "type": "doc",
+  "title": "value-driver-tree",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "value-driver-tree.md",
+  "contentSha256": "5c840f7658bf7f2d6e8c4717217139a40553db51b686b999c7c4771ad5ddd303",
+  "assetsDir": "._value-driver-tree",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5ae",
+    "refCode": "P5EMT0",
+    "refName": "04-qualify"
+  },
+  "importedAt": "2026-08-29T07:40:15.749Z"
+}

@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd59b",
+  "code": "S9FMBUTB",
+  "type": "doc",
+  "title": "solution-02",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "solution-02.md",
+  "contentSha256": "a670225f6d9b6feaba7c9b9b53c315d2f55e0614cb6ff9d2cd36ebe707aa1e39",
+  "assetsDir": "._solution-02",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd594",
+    "refCode": "4JWB23",
+    "refName": "session-01-framing-the-engagement"
+  },
+  "importedAt": "2026-08-29T07:40:15.705Z"
+}

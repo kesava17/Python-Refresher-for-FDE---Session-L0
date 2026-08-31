@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5bb",
+  "code": "CJOQW1G5",
+  "type": "doc",
+  "title": "how-might-we",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "how-might-we.md",
+  "contentSha256": "ba56b9cc3ffde441e9fc5b1ba60b5ac03649b64883a1b75bf8285b8066e5cc50",
+  "assetsDir": "._how-might-we",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5b9",
+    "refCode": "7NMX7S",
+    "refName": "02-frame"
+  },
+  "importedAt": "2026-08-29T07:40:15.763Z"
+}

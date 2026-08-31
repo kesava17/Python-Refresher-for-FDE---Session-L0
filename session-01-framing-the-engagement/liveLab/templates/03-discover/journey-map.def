@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5c0",
+  "code": "052XBI8K",
+  "type": "doc",
+  "title": "journey-map",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "journey-map.md",
+  "contentSha256": "9538b42fb386b5ecaee981adc18850536ccbda6db233abbf7cded588cc4504a8",
+  "assetsDir": "._journey-map",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5be",
+    "refCode": "NITY0F",
+    "refName": "03-discover"
+  },
+  "importedAt": "2026-08-29T07:40:15.769Z"
+}

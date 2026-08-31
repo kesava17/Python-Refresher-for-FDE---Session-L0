@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5a2",
+  "code": "YURXWU0S",
+  "type": "doc",
+  "title": "problem-selection-note",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "problem-selection-note.md",
+  "contentSha256": "17fc508ce1583cef38f8631b4b0d026d7672bc6e295d794ef5dc4d135ca7b9c7",
+  "assetsDir": "._problem-selection-note",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd59f",
+    "refCode": "QMZZCO",
+    "refName": "01-triage"
+  },
+  "importedAt": "2026-08-29T07:40:15.719Z"
+}

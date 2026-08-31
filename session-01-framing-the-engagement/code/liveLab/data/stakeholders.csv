@@ -1,0 +1,10 @@
+stakeholder,role,power,interest,can_veto,notes
+Vikram Rao,VP Customer Experience (sponsor),High,High,Yes,Holds the budget; board-facing; impatient
+Legal,Legal and Compliance,High,Medium,Yes,Can veto warranty answers; was not in the kickoff
+IT,IT / Data and Platforms,High,Medium,Yes,Owns data access and integration
+Support agents,Front-line support,Low,High,No,Their adoption decides success
+Support ops lead,Support operations,Medium,High,No,Owns the queues and the SLAs
+Sales,Sales team,Low,Medium,No,Wants the upsell; not on the critical path
+Marketing,Marketing,Low,Low,No,Wants content generation
+CEO,Chief Executive,High,Low,Yes,Enthusiastic; low day-to-day interest
+Finance,Finance,Medium,Medium,No,Budget holder; wants a quarter-end proof

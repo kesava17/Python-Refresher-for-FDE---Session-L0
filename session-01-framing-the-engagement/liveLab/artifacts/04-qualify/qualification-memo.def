@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5b1",
+  "code": "BQJ6ZU54",
+  "type": "doc",
+  "title": "qualification-memo",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "qualification-memo.md",
+  "contentSha256": "788a852fa07b5746b9c02e6765a9e40511e50bbc6806a0c276e869879175cc11",
+  "assetsDir": "._qualification-memo",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5ae",
+    "refCode": "P5EMT0",
+    "refName": "04-qualify"
+  },
+  "importedAt": "2026-08-29T07:40:15.748Z"
+}

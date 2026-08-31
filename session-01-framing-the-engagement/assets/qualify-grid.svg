@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" font-family="Inter, system-ui, sans-serif">
+  <!-- quadrant tints -->
+  <rect x="70"  y="44"  width="213" height="148" fill="#FFFBEB"/>
+  <rect x="283" y="44"  width="213" height="148" fill="#ECFDF5"/>
+  <rect x="70"  y="192" width="213" height="148" fill="#F1F5F9"/>
+  <rect x="283" y="192" width="213" height="148" fill="#EEF2FF"/>
+  <rect x="70"  y="44"  width="426" height="296" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+  <line x1="283" y1="44" x2="283" y2="340" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="70"  y1="192" x2="496" y2="192" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- quadrant labels -->
+  <text x="490" y="62"  text-anchor="end"   font-size="12" font-weight="600" fill="#059669">DO IT NOW</text>
+  <text x="76"  y="62"  text-anchor="start" font-size="12" font-weight="600" fill="#B45309">PLAN FOR LATER</text>
+  <text x="490" y="332" text-anchor="end"   font-size="12" font-weight="600" fill="#4338CA">QUICK WINS</text>
+  <text x="76"  y="332" text-anchor="start" font-size="12" font-weight="600" fill="#94A3B8">AVOID</text>
+  <!-- axes -->
+  <text x="283" y="382" text-anchor="middle" font-size="14" font-weight="600" fill="#334155">Feasibility</text>
+  <text x="74"  y="358" text-anchor="start"  font-size="11" fill="#94A3B8">low</text>
+  <text x="494" y="358" text-anchor="end"    font-size="11" fill="#94A3B8">high</text>
+  <text x="22"  y="192" text-anchor="middle" font-size="14" font-weight="600" fill="#334155" transform="rotate(-90 22 192)">Value</text>
+  <text x="52"  y="52"  text-anchor="middle" font-size="11" fill="#94A3B8">high</text>
+  <text x="52"  y="336" text-anchor="middle" font-size="11" fill="#94A3B8">low</text>
+  <!-- plotted candidates -->
+  <circle cx="150" cy="104" r="8" fill="#F59E0B" stroke="#fff" stroke-width="2"/>
+  <text x="164" y="108" text-anchor="start" font-size="12.5" fill="#334155">Upsell bot</text>
+  <circle cx="150" cy="286" r="8" fill="#94A3B8" stroke="#fff" stroke-width="2"/>
+  <text x="164" y="290" text-anchor="start" font-size="12.5" fill="#334155">Content generation</text>
+  <circle cx="432" cy="92" r="10" fill="#10B981" stroke="#fff" stroke-width="2.5"/>
+  <text x="418" y="88"  text-anchor="end" font-size="13" font-weight="700" fill="#0F172A">Support deflection</text>
+  <text x="418" y="106" text-anchor="end" font-size="11.5" font-weight="600" fill="#059669">the GO</text>
+</svg>

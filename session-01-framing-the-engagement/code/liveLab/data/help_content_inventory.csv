@@ -1,0 +1,15 @@
+doc_id,title,source,covers_question_type,last_reviewed,quality
+HC-001,Track your order,Help Center,order_status,2026-06-10,good
+HC-002,How returns work,Help Center,return,2026-05-22,good
+HC-003,Return an item step by step,Help Center,return,2026-05-22,good
+HC-004,Warranty overview,Help Center,warranty_simple,2025-11-30,partial
+HC-005,Register your warranty,Help Center,warranty_simple,2025-11-30,partial
+HC-006,Delivery timelines and delays,Help Center,delivery_delay,2026-01-18,partial
+KB-101,Order status internal macro,Internal KB,order_status,2026-07-01,good
+KB-102,Refund timelines,Internal KB,refund_status,2026-04-15,partial
+KB-103,Warranty dispute handling,Internal KB,warranty_dispute,2026-03-02,partial
+KB-104,Payment failure troubleshooting,Internal KB,payment_issue,2026-02-11,partial
+KB-105,Exchange and size swap,Internal KB,exchange,2026-05-05,partial
+TCK-ARCHIVE,12 months of resolved tickets (export),Ticket archive,multiple,2026-07-28,usable
+TRB-001,When a warranty case is simple vs a dispute (undocumented),Agents' heads,warranty_simple,,gap
+TRB-002,Regional courier quirks and workarounds (undocumented),Agents' heads,delivery_delay,,gap

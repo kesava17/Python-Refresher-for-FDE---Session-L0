@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "llm-foundations-demos"
+version = "0.1.0"
+description = "Offline demos for LLM foundations: tokens, prediction, temperature, embeddings, the model interface."
+authors = ["GuildTrek"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

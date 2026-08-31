@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5b0",
+  "code": "VR9TZL55",
+  "type": "doc",
+  "title": "dvf-assessment",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "dvf-assessment.md",
+  "contentSha256": "b8719774ff053f1d3ade8f6003d9151db5030042cd01e0178a85f08da71b543e",
+  "assetsDir": "._dvf-assessment",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5ae",
+    "refCode": "P5EMT0",
+    "refName": "04-qualify"
+  },
+  "importedAt": "2026-08-29T07:40:15.746Z"
+}

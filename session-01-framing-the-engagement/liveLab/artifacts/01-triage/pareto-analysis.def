@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5a1",
+  "code": "CRHCAIQW",
+  "type": "doc",
+  "title": "pareto-analysis",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "pareto-analysis.md",
+  "contentSha256": "ab3f3692ed1eba7df27d9e54f0982ea213ea224da60c33148e2e9f79e8f324fa",
+  "assetsDir": "._pareto-analysis",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd59f",
+    "refCode": "QMZZCO",
+    "refName": "01-triage"
+  },
+  "importedAt": "2026-08-29T07:40:15.718Z"
+}

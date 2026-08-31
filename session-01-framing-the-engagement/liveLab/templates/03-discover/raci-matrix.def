@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5c2",
+  "code": "878HRF54",
+  "type": "doc",
+  "title": "raci-matrix",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "raci-matrix.md",
+  "contentSha256": "8630d597b4d004aa6caaea00fa4292764b70cd3ebb5e9017fd5fd5a773786e27",
+  "assetsDir": "._raci-matrix",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5be",
+    "refCode": "NITY0F",
+    "refName": "03-discover"
+  },
+  "importedAt": "2026-08-29T07:40:15.771Z"
+}

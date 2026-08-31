@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5bf",
+  "code": "Q7GWTNXQ",
+  "type": "doc",
+  "title": "discovery-brief",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "discovery-brief.md",
+  "contentSha256": "c2605ac04789ce349d1242c2320772bc3d27cf4f069737a9da5f02a791dcf60e",
+  "assetsDir": "._discovery-brief",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5be",
+    "refCode": "NITY0F",
+    "refName": "03-discover"
+  },
+  "importedAt": "2026-08-29T07:40:15.768Z"
+}

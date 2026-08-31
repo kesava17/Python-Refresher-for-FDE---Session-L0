@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5ba",
+  "code": "ZZ5Q6ER4",
+  "type": "doc",
+  "title": "five-whys",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "five-whys.md",
+  "contentSha256": "129dd3fc691656bff5d1d34b0f200935eb8499f7c454b36056efc5398dc5b0ff",
+  "assetsDir": "._five-whys",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5b9",
+    "refCode": "7NMX7S",
+    "refName": "02-frame"
+  },
+  "importedAt": "2026-08-29T07:40:15.761Z"
+}

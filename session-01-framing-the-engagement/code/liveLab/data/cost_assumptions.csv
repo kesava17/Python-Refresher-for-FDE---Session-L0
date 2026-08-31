@@ -1,0 +1,13 @@
+parameter,value,unit,notes
+tickets_per_week,4000,tickets,From support ops
+repetitive_in_scope_share,0.60,ratio,Order + return + simple warranty (from the Pareto)
+in_scope_tickets_per_week,2400,tickets,4000 x 0.60
+target_deflection_rate,0.50,ratio,Conservative first-year assumption
+deflected_per_week,1200,tickets,2400 x 0.50
+cost_per_contact,120,INR,Fully loaded cost to serve one ticket
+weeks_per_year,52,weeks,
+run_rate_saving_per_year,7488000,INR,1200 x 52 x 120
+build_cost,1700000,INR,One-time PoC build
+first_year_run_cost,700000,INR,Model, infra, monitoring, content upkeep, escalation
+tco_first_year,2400000,INR,build_cost + first_year_run_cost
+payback_period,3.8,months,tco_first_year / (run_rate_saving_per_year / 12)

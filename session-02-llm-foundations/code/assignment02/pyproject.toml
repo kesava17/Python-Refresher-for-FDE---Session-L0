@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "assignment02-new-adapter"
+version = "0.1.0"
+description = "Assignment 2: add a new model adapter behind the interface."
+authors = ["GuildTrek"]
+packages = [{ include = "model_layer", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="dtA" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#4F46E5"/></marker>
+    <marker id="dtG" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#10B981"/></marker>
+  </defs>
+  <rect x="12"  y="26" width="150" height="54" rx="11" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.6"/>
+  <text x="87"  y="58" text-anchor="middle" font-weight="600" font-size="18" fill="#0F172A">Empathize</text>
+  <rect x="188" y="26" width="150" height="54" rx="11" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.6"/>
+  <text x="263" y="58" text-anchor="middle" font-weight="600" font-size="18" fill="#0F172A">Define</text>
+  <rect x="364" y="26" width="150" height="54" rx="11" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.6"/>
+  <text x="439" y="58" text-anchor="middle" font-weight="600" font-size="18" fill="#0F172A">Ideate</text>
+  <rect x="540" y="26" width="150" height="54" rx="11" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.6"/>
+  <text x="615" y="58" text-anchor="middle" font-weight="600" font-size="18" fill="#0F172A">Prototype</text>
+  <rect x="716" y="26" width="150" height="54" rx="11" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+  <text x="791" y="58" text-anchor="middle" font-weight="600" font-size="18" fill="#0F172A">Test</text>
+  <line x1="164" y1="53" x2="185" y2="53" stroke="#4F46E5" stroke-width="2.2" marker-end="url(#dtA)"/>
+  <line x1="340" y1="53" x2="361" y2="53" stroke="#4F46E5" stroke-width="2.2" marker-end="url(#dtA)"/>
+  <line x1="516" y1="53" x2="537" y2="53" stroke="#4F46E5" stroke-width="2.2" marker-end="url(#dtA)"/>
+  <line x1="692" y1="53" x2="713" y2="53" stroke="#4F46E5" stroke-width="2.2" marker-end="url(#dtA)"/>
+  <path d="M791,80 C791,150 791,168 439,168 C120,168 87,150 87,82" fill="none" stroke="#10B981" stroke-width="2.2" stroke-dasharray="6 5" marker-end="url(#dtG)"/>
+  <text x="439" y="192" text-anchor="middle" font-size="14" fill="#059669" font-style="italic">what you learn sends you back to reframe</text>
+</svg>

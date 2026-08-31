@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5ca",
+  "code": "O4DSKNMS",
+  "type": "slideDeck",
+  "title": "LLM Foundations for Solution Builders",
+  "render": "passthrough",
+  "format": "marp",
+  "contentFile": "presentation.md",
+  "contentSha256": "e3086532b1d3d3ff7dc0e89f9f300e92ac41ce447d56057f97dfc9adbdfea9b6",
+  "assetsDir": "._presentation",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5c9",
+    "refCode": "70KKLS",
+    "refName": "session-02-llm-foundations"
+  },
+  "importedAt": "2026-08-29T07:40:15.790Z"
+}

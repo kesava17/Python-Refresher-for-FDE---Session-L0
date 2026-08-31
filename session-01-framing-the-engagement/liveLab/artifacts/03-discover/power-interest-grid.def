@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5ac",
+  "code": "W19ML3W2",
+  "type": "doc",
+  "title": "power-interest-grid",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "power-interest-grid.md",
+  "contentSha256": "5f5b2073a4fcc38f3381e27da0f43227b32b56957c76a814ea8bf3e0e391c4a5",
+  "assetsDir": "._power-interest-grid",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5a9",
+    "refCode": "1KBE4N",
+    "refName": "03-discover"
+  },
+  "importedAt": "2026-08-29T07:40:15.738Z"
+}

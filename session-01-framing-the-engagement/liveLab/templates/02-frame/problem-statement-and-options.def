@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a928cdf90ad0da31b0fd5bd",
+  "code": "HHD0CQYN",
+  "type": "doc",
+  "title": "problem-statement-and-options",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "problem-statement-and-options.md",
+  "contentSha256": "79b65996c95cec268f97b043962a33567c839140f1cae30972b452eee24db304",
+  "assetsDir": "._problem-statement-and-options",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a928cdf90ad0da31b0fd5b9",
+    "refCode": "7NMX7S",
+    "refName": "02-frame"
+  },
+  "importedAt": "2026-08-29T07:40:15.765Z"
+}
