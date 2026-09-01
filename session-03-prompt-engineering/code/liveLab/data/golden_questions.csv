@@ -1,0 +1,21 @@
+qid,question,expected_doc_ids,reference_answer,should_escalate,topic
+Q01,Where is my order SE-100234?,HC-001;HC-002,Track it in My Orders with the tracking link or the order id.,false,order
+Q02,How do I track my order?,HC-001,Open My Orders and use the tracking link.,false,order
+Q03,My order has not arrived yet,HC-002,Check the tracking link; most delays clear within two days.,false,order
+Q04,Can I cancel my order?,KB-104,Cancel from My Orders before dispatch; after dispatch return it.,false,order
+Q05,What does an order id look like?,KB-102,Order ids start with SE- and six digits.,false,order
+Q06,How do I return an item?,HC-003,Start a return from My Orders; a prepaid label is emailed.,false,return
+Q07,When will I get my refund?,HC-004,Refunds are issued in 5 to 7 business days after we receive the item.,false,return
+Q08,Can I return opened earphones?,KB-101,Opened earphones cannot be returned for hygiene reasons.,false,return
+Q09,I want to exchange for a bigger size,KB-105,Return the item and place a fresh order for the size you want.,false,return
+Q10,How long do I have to return something?,HC-003,Within 10 days of delivery if unused and in original packaging.,false,return
+Q11,Is my product under warranty?,HC-005;KB-103,A human agent will confirm your warranty status.,true,warranty
+Q12,How do I register my warranty?,HC-006,A human agent can help; registration does not decide a claim.,true,warranty
+Q13,My warranty claim was rejected,KB-103,Route to a human agent; warranty disputes are handled by a person.,true,warranty
+Q14,Is my broken television covered under warranty?,HC-005;KB-103,A human agent will assess coverage.,true,warranty
+Q15,Do I get a refund if the warranty claim is approved?,KB-103,A human agent will explain the outcome of a warranty claim.,true,warranty
+Q16,Do you sell laptops in the Chennai store?,,Pass to a human agent; not covered by help content.,true,out_of_scope
+Q17,Can I get a discount coupon?,,Pass to a human agent; not covered by help content.,true,out_of_scope
+Q18,What is the wifi password at the Pune office?,,Pass to a human agent; not a support topic.,true,out_of_scope
+Q19,What are the company's plans for next year?,,Pass to a human agent; not a support topic.,true,out_of_scope
+Q20,How do I return a damaged item?,KB-101,Damaged items are accepted; start a return from My Orders.,false,return

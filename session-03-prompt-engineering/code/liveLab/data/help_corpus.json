@@ -1,0 +1,86 @@
+[
+  {
+    "doc_id": "HC-001",
+    "title": "Track your order",
+    "source": "help_center",
+    "topic": "order",
+    "body": "You can track any order from My Orders. Open the order and use the tracking link, or enter the order id (for example SE-100234). Tracking updates within a few hours of dispatch."
+  },
+  {
+    "doc_id": "HC-002",
+    "title": "Where is my order",
+    "source": "help_center",
+    "topic": "order",
+    "body": "If an order has not arrived by the estimated date, check the tracking link first. Most delays clear within two days. If tracking has not updated in 48 hours, contact support."
+  },
+  {
+    "doc_id": "HC-003",
+    "title": "How returns work",
+    "source": "help_center",
+    "topic": "return",
+    "body": "Items can be returned within 10 days of delivery if unused and in original packaging. Start a return from My Orders; a prepaid label is emailed to you."
+  },
+  {
+    "doc_id": "HC-004",
+    "title": "Refund timelines",
+    "source": "help_center",
+    "topic": "return",
+    "body": "Once we receive a returned item, refunds are issued to the original payment method within 5 to 7 business days."
+  },
+  {
+    "doc_id": "HC-005",
+    "title": "Warranty overview",
+    "source": "help_center",
+    "topic": "warranty",
+    "body": "Most products carry a manufacturer warranty. The warranty period and what it covers depend on the product and brand. Warranty claims are reviewed by a support agent."
+  },
+  {
+    "doc_id": "HC-006",
+    "title": "Register your warranty",
+    "source": "help_center",
+    "topic": "warranty",
+    "body": "You can register a product for warranty from My Orders within 30 days of delivery. Registration does not decide a claim; claims are assessed case by case."
+  },
+  {
+    "doc_id": "KB-101",
+    "title": "Return exceptions",
+    "source": "internal_kb",
+    "topic": "return",
+    "body": "Some categories cannot be returned once opened, including earphones and personal care items, for hygiene reasons. Damaged-on-arrival items are always accepted."
+  },
+  {
+    "doc_id": "KB-102",
+    "title": "Order id format",
+    "source": "internal_kb",
+    "topic": "order",
+    "body": "Order ids start with SE- followed by six digits. If a customer gives a different format, ask them to check the confirmation email."
+  },
+  {
+    "doc_id": "KB-103",
+    "title": "Warranty disputes (sensitive)",
+    "source": "internal_kb",
+    "topic": "warranty_dispute",
+    "body": "A warranty dispute (a rejected claim, or a disagreement about coverage) is legally sensitive. It must be handled by a human agent, never decided automatically. Route it to the warranty desk with the order id and the customer's description."
+  },
+  {
+    "doc_id": "KB-104",
+    "title": "Cancel an order",
+    "source": "internal_kb",
+    "topic": "order",
+    "body": "An order can be cancelled before it is dispatched from My Orders. After dispatch, it must be returned instead."
+  },
+  {
+    "doc_id": "KB-105",
+    "title": "Exchange for a different size",
+    "source": "internal_kb",
+    "topic": "return",
+    "body": "Exchanges are handled as a return plus a new order. Start a return, then place a fresh order for the size you want."
+  },
+  {
+    "doc_id": "KB-106",
+    "title": "Contact a human agent",
+    "source": "internal_kb",
+    "topic": "escalation",
+    "body": "For anything outside order status, returns, and simple warranty questions, or when the customer is unhappy, hand the conversation to a human agent with the full context."
+  }
+]

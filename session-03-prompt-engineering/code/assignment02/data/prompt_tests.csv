@@ -1,0 +1,15 @@
+tid,question,expect_escalate,topic
+T01,Where is my order SE-100234?,false,order
+T02,How do I track my order?,false,order
+T03,Can I cancel my order?,false,order
+T04,How do I return an item?,false,return
+T05,When will I get my refund?,false,return
+T06,How long do I have to return something?,false,return
+T07,I want to exchange for a bigger size,false,return
+T08,Is my product under warranty?,true,warranty
+T09,How do I register my warranty?,true,warranty
+T10,My warranty claim was rejected,true,warranty
+T11,Is my broken television covered under warranty?,true,warranty
+T12,Do you sell laptops in the Chennai store?,true,out_of_scope
+T13,Can I get a discount coupon?,true,out_of_scope
+T14,What is the wifi password at the Pune office?,true,out_of_scope

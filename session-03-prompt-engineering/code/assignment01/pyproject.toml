@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "assignment01-repair-prompt"
+version = "0.1.0"
+description = "Assignment 1: repair a flaky prompt and add a validated topic field."
+authors = ["GuildTrek"]
+packages = [{ include = "prompt_layer", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

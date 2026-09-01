@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "assignment02-harden-injection"
+version = "0.1.0"
+description = "Assignment 2: harden the prompt against injection with an input guardrail and a test."
+authors = ["GuildTrek"]
+packages = [{ include = "prompt_layer", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
