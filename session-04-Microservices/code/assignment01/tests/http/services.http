@@ -1,0 +1,16 @@
+### telemetry-ingest directly: create a reading
+POST http://localhost:8001/v1/readings
+Content-Type: application/json
+
+{ "device_id": "d2", "value": 18.0, "ts": "2026-09-01T10:05:00Z" }
+
+### telemetry-rollup directly: the rollup for a device
+GET http://localhost:8002/v1/rollup/d2
+
+### telemetry-rollup directly: force a drain of pending events
+POST http://localhost:8002/internal/drain
+
+### health of each service
+GET http://localhost:8001/health
+###
+GET http://localhost:8002/health

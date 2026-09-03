@@ -1,0 +1,13 @@
+### reviews-ingest directly: create a review
+POST http://localhost:8001/v1/reviews
+Content-Type: application/json
+
+{ "product_id": "p2", "rating": 4, "text": "solid" }
+
+### reviews-query directly: the aggregate for a product
+GET http://localhost:8002/v1/aggregates/p2
+
+### health of each service
+GET http://localhost:8001/health
+###
+GET http://localhost:8002/health

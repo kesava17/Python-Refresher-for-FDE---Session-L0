@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a97d749f1f9a44409e7d393",
+  "code": "HJKF4OSX",
+  "type": "doc",
+  "title": "solution-01",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "solution-01.md",
+  "contentSha256": "23eed7ca8737f40813be0c47fd3d45fb5e13309abc831e9131909f1dfeedfd52",
+  "assetsDir": "._solution-01",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a97d749f1f9a44409e7d38a",
+    "refCode": "BD6XC1",
+    "refName": "microservices-architecture"
+  },
+  "importedAt": "2026-09-02T07:59:05.868Z"
+}

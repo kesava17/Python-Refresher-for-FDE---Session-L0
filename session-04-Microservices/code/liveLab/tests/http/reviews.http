@@ -1,0 +1,8 @@
+### Submit a review through the gateway
+POST http://localhost:8000/reviews
+Content-Type: application/json
+
+{ "product_id": "p1", "rating": 5, "text": "great" }
+
+### Read the dashboard (backend-for-frontend) through the gateway
+GET http://localhost:8000/bff/dashboard/p1

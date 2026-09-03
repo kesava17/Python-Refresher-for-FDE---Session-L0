@@ -1,0 +1,40 @@
+# The whole system on a laptop: three services from one image, each on its own port, each
+# with its own database volume, sharing the event broker. `docker compose up` and watch them
+# talk. This is the local parity the lab is built to give you.
+services:
+  gateway:
+    build: .
+    command: uvicorn gateway.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      INGEST_URL: http://reviews-ingest:8001
+      QUERY_URL: http://reviews-query:8002
+    depends_on:
+      - reviews-ingest
+      - reviews-query
+
+  reviews-ingest:
+    build: .
+    command: uvicorn reviews_ingest.main:app --host 0.0.0.0 --port 8001
+    environment:
+      INGEST_DB: /data/ingest.db
+      BROKER_PATH: /broker/broker.jsonl
+    volumes:
+      - ingest-data:/data
+      - broker:/broker
+
+  reviews-query:
+    build: .
+    command: uvicorn reviews_query.main:app --host 0.0.0.0 --port 8002
+    environment:
+      QUERY_DB: /data/query.db
+      BROKER_PATH: /broker/broker.jsonl
+    volumes:
+      - query-data:/data
+      - broker:/broker
+
+volumes:
+  ingest-data:
+  query-data:
+  broker:

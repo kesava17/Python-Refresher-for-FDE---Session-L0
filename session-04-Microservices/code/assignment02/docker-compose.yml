@@ -1,0 +1,40 @@
+# The whole system on a laptop: three services from one image, each on its own port, each
+# with its own database volume, sharing the event broker. `docker compose up` and watch them
+# talk. This is the local parity the lab is built to give you.
+services:
+  gateway:
+    build: .
+    command: uvicorn gateway.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      TRANSACTIONS_URL: http://transactions-service:8001
+      LEDGER_URL: http://ledger-service:8002
+    depends_on:
+      - transactions-service
+      - ledger-service
+
+  transactions-service:
+    build: .
+    command: uvicorn transactions_service.main:app --host 0.0.0.0 --port 8001
+    environment:
+      TRANSACTIONS_DB: /data/transactions.db
+      BROKER_PATH: /broker/broker.jsonl
+    volumes:
+      - transactions-data:/data
+      - broker:/broker
+
+  ledger-service:
+    build: .
+    command: uvicorn ledger_service.main:app --host 0.0.0.0 --port 8002
+    environment:
+      LEDGER_DB: /data/ledger.db
+      BROKER_PATH: /broker/broker.jsonl
+    volumes:
+      - ledger-data:/data
+      - broker:/broker
+
+volumes:
+  transactions-data:
+  ledger-data:
+  broker:

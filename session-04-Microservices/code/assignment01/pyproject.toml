@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "telemetry-insight-microservices"
+version = "1.0.0"
+description = "telemetry-insight split into microservices: telemetry-ingest and telemetry-rollup behind a gateway, with a shared contract, per-service stores, an event broker, and an idempotent consumer."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+packages = [
+  { include = "contracts", from = "src" },
+  { include = "common", from = "src" },
+  { include = "telemetry_ingest", from = "src" },
+  { include = "telemetry_rollup", from = "src" },
+  { include = "gateway", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = ">=0.115"
+uvicorn = ">=0.30"
+httpx = ">=0.27"
+tenacity = ">=8.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+pre-commit = ">=3.7"
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

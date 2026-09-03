@@ -1,0 +1,7 @@
+account_id,amount_cents,kind
+acc-1,10000,credit
+acc-1,3000,debit
+acc-1,550,credit
+acc-2,20000,credit
+acc-2,12500,debit
+acc-3,7500,credit

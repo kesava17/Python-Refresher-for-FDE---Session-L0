@@ -1,0 +1,16 @@
+### transactions-service directly: record a debit (amount in paise: 200 is rupees 2.00)
+POST http://localhost:8001/v1/transactions
+Content-Type: application/json
+
+{ "account_id": "acc-2", "amount_cents": 200, "kind": "debit" }
+
+### transactions-service directly: list an account's transactions
+GET http://localhost:8001/v1/transactions/acc-2
+
+### ledger-service directly: the summary for an account
+GET http://localhost:8002/v1/accounts/acc-2/summary
+
+### health of each service
+GET http://localhost:8001/health
+###
+GET http://localhost:8002/health

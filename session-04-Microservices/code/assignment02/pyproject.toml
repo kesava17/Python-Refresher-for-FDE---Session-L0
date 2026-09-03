@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "transactions-insight-microservices"
+version = "1.0.0"
+description = "transactions-insight split into microservices: transactions-service and ledger-service behind a gateway, with a versioned contract, per-service stores, an event broker, and resilient calls."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+packages = [
+  { include = "contracts", from = "src" },
+  { include = "common", from = "src" },
+  { include = "transactions_service", from = "src" },
+  { include = "ledger_service", from = "src" },
+  { include = "gateway", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = ">=0.115"
+uvicorn = ">=0.30"
+httpx = ">=0.27"
+tenacity = ">=8.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+pre-commit = ">=3.7"
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

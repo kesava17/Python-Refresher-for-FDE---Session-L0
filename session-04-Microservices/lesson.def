@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a97d749f1f9a44409e7d38d",
+  "code": "AKY0TFKX",
+  "type": "doc",
+  "title": "lesson",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "lesson.md",
+  "contentSha256": "370724b71ad8581f1f587a35d34498335686e651d7f5b2d93ed24ea2dc0294da",
+  "assetsDir": "._lesson",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a97d749f1f9a44409e7d38a",
+    "refCode": "BD6XC1",
+    "refName": "microservices-architecture"
+  },
+  "importedAt": "2026-09-02T07:59:05.800Z"
+}

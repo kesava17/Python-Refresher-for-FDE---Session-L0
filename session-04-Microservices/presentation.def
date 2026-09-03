@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a97d749f1f9a44409e7d391",
+  "code": "L1PVOS2S",
+  "type": "slideDeck",
+  "title": "Microservices Architecture",
+  "render": "passthrough",
+  "format": "marp",
+  "contentFile": "presentation.md",
+  "contentSha256": "c6481d40007c6cc881fffec5590a59ca981e0a9337245f7acf009a94c083db64",
+  "assetsDir": "._presentation",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a97d749f1f9a44409e7d38a",
+    "refCode": "BD6XC1",
+    "refName": "microservices-architecture"
+  },
+  "importedAt": "2026-09-02T07:59:05.840Z"
+}

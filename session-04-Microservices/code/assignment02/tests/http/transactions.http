@@ -1,0 +1,8 @@
+### Submit a transaction through the gateway (amount in paise: 500 is rupees 5.00)
+POST http://localhost:8000/transactions
+Content-Type: application/json
+
+{ "account_id": "acc-1", "amount_cents": 500, "kind": "credit" }
+
+### Read the account view (backend-for-frontend) through the gateway
+GET http://localhost:8000/bff/account/acc-1

@@ -1,0 +1,8 @@
+### Submit a reading through the gateway
+POST http://localhost:8000/readings
+Content-Type: application/json
+
+{ "device_id": "d1", "value": 21.5, "ts": "2026-09-01T10:00:00Z" }
+
+### Read the device view (backend-for-frontend) through the gateway
+GET http://localhost:8000/bff/device/d1

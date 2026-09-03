@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "microservices-demos"
+version = "1.0.0"
+description = "Standard-library demos for microservices architecture: two services, sync versus async, timeout and retry, circuit breaker, idempotent consumer, data per service."
+authors = ["GuildTrek <hello@guildtrek.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6"
+mypy = ">=1.11"
+pytest = ">=8.0"
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
