@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a9bcf7800e916c724592d8d",
+  "code": "M056ARMN",
+  "type": "doc",
+  "title": "solution-02",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "solution-02.md",
+  "contentSha256": "f006a3db8b615d1ba8adc3a37ff4b28c63e90519a537e890dcc67a378840a195",
+  "assetsDir": "._solution-02",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a9970f4fe1039dbb49b3d62",
+    "refCode": "7FWD1Q",
+    "refName": "anIntro"
+  },
+  "importedAt": "2026-09-05T08:14:48.516Z"
+}

@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a9bcf7800e916c724592d8b",
+  "code": "X7SVQMA3",
+  "type": "doc",
+  "title": "setup-cheatsheet",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "setup-cheatsheet.md",
+  "contentSha256": "cec2271ce48036c1cc3ac47b54f8c9d13bfb04140107e9854485f056ceff23ce",
+  "assetsDir": "._setup-cheatsheet",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a9970f4fe1039dbb49b3d62",
+    "refCode": "7FWD1Q",
+    "refName": "anIntro"
+  },
+  "importedAt": "2026-09-05T08:14:48.504Z"
+}

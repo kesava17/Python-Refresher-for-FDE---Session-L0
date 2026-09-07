@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a9bcf7800e916c724592d8a",
+  "code": "50DJCUV2",
+  "type": "doc",
+  "title": "live-lab",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "live-lab.md",
+  "contentSha256": "11375c009c4da003435b9c79382f01bd6f35d95c94d6cd13d9de307671f3e26e",
+  "assetsDir": "._live-lab",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a9970f4fe1039dbb49b3d62",
+    "refCode": "7FWD1Q",
+    "refName": "anIntro"
+  },
+  "importedAt": "2026-09-05T08:14:48.485Z"
+}

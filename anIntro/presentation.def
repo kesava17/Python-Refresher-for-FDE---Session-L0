@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a9970f4fe1039dbb49b3d63",
+  "code": "5IMURSPN",
+  "type": "slideDeck",
+  "title": "Artificial Neural Networks - An Introduction",
+  "render": "passthrough",
+  "format": "marp",
+  "contentFile": "presentation.md",
+  "contentSha256": "ac056b7bf04aecbb644ec36724f6a0cd7dae06d883e24ff8f89253974dba6621",
+  "assetsDir": "._presentation",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a9970f4fe1039dbb49b3d62",
+    "refCode": "7FWD1Q",
+    "refName": "anIntro"
+  },
+  "importedAt": "2026-09-03T13:07:00.691Z"
+}

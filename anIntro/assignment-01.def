@@ -1,0 +1,24 @@
+{
+  "vault": "artifact-def@1",
+  "_id": "6a9bcf7800e916c724592d87",
+  "code": "9IT1JC7N",
+  "type": "doc",
+  "title": "assignment-01",
+  "render": "kit",
+  "format": "markdown",
+  "contentFile": "assignment-01.md",
+  "contentSha256": "7fa52a863187b471c24dfc6fed2415fb38e2c6c714cd1d754438a6efc8a195bd",
+  "assetsDir": "._assignment-01",
+  "assets": [],
+  "library": {
+    "refId": "6a8eab90208c8194fc3f571d",
+    "refCode": "RRY9I8",
+    "refName": "guildtrek"
+  },
+  "folder": {
+    "refId": "6a9970f4fe1039dbb49b3d62",
+    "refCode": "7FWD1Q",
+    "refName": "anIntro"
+  },
+  "importedAt": "2026-09-05T08:14:48.464Z"
+}
